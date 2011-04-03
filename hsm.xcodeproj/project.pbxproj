@@ -11,6 +11,7 @@
 		15EB067413471426005EF08D /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB067313471426005EF08D /* StateMachine.m */; };
 		15EB067713471448005EF08D /* DogVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB067613471448005EF08D /* DogVerifier.m */; };
 		15EB067A13471762005EF08D /* DogEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB067913471762005EF08D /* DogEvent.m */; };
+		15EB07471348B945005EF08D /* SMEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB07461348B945005EF08D /* SMEvent.m */; };
 		8DD76F9A0486AA7600D96B5E /* hsm.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* hsm.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* hsm.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* hsm.1 */; };
@@ -43,6 +44,8 @@
 		15EB067613471448005EF08D /* DogVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogVerifier.m; sourceTree = "<group>"; };
 		15EB067813471762005EF08D /* DogEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogEvent.h; sourceTree = "<group>"; };
 		15EB067913471762005EF08D /* DogEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogEvent.m; sourceTree = "<group>"; };
+		15EB07451348B945005EF08D /* SMEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEvent.h; sourceTree = "<group>"; };
+		15EB07461348B945005EF08D /* SMEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMEvent.m; sourceTree = "<group>"; };
 		32A70AAB03705E1F00C91783 /* hsm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hsm_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* hsm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hsm; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* hsm.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = hsm.1; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 			children = (
 				15EB067213471426005EF08D /* StateMachine.h */,
 				15EB067313471426005EF08D /* StateMachine.m */,
+				15EB07451348B945005EF08D /* SMEvent.h */,
+				15EB07461348B945005EF08D /* SMEvent.m */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				15EB067413471426005EF08D /* StateMachine.m in Sources */,
 				15EB067713471448005EF08D /* DogVerifier.m in Sources */,
 				15EB067A13471762005EF08D /* DogEvent.m in Sources */,
+				15EB07471348B945005EF08D /* SMEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

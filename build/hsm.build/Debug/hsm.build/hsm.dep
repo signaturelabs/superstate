@@ -1,9 +1,10 @@
-aa2ead3a47933a965960d492dddca7a8 876304bf77b773a1d6d4b12fcc80d07a ffffffffffffffffffffffffffffffff 19100 /Users/tleyden/Documents/hsm/build/Debug/hsm
-bdca12087ea9a73ede405aeb9c4e790e 968180b3f2efca6bae83ecd923898641 ffffffffffffffffffffffffffffffff 7492 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogStateMachine.o
-bdca12087f1ceaa0de405aeb9c4e6a75 e1f865331a763049404fdd1320af9fa6 ffffffffffffffffffffffffffffffff 4784 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogEvent.o
-bdca12087ea9a2e1de405aeb9c4e78f6 95f5a5cf7bfafd049b533ea6939690e1 ffffffffffffffffffffffffffffffff 10876 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogVerifier.o
-bdca12087f1ced53de405aeb9c4e6af4 0c07e662bd09d6f30ae109642585ece4 ffffffffffffffffffffffffffffffff 4808 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/StateMachine.o
-bdca1208333f4016de405aeb9c4e7858 f96f191f5b37e40df85e8871f4145205 ffffffffffffffffffffffffffffffff 7072 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o
+b3e5c967f8ae36f27354648b9a8b07c8 876304bf77b773a1d6d4b12fcc80d07a ffffffffffffffffffffffffffffffff 20424 /Users/tleyden/Documents/hsm/build/Debug/hsm
+bdca12087ea7986ede405aeb9c4e7558 95f5a5cf7bfafd049b533ea6939690e1 ffffffffffffffffffffffffffffffff 17008 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogVerifier.o
+bdca12087f1cbba8de405aeb9c4e68ad a4017655c02fb822f474eaf2db19c4e9 ffffffffffffffffffffffffffffffff 6116 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/SMEvent.o
+bdca12087ea9f09bde405aeb9c4e7a93 e1f865331a763049404fdd1320af9fa6 ffffffffffffffffffffffffffffffff 4788 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogEvent.o
+bdca12087f12e436de405aeb9c4e6a43 0c07e662bd09d6f30ae109642585ece4 ffffffffffffffffffffffffffffffff 4808 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/StateMachine.o
+bdca12087f1cba1bde405aeb9c4e6835 968180b3f2efca6bae83ecd923898641 ffffffffffffffffffffffffffffffff 8420 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogStateMachine.o
+bdca120833317b0cde405aeb9c4e78b8 f96f191f5b37e40df85e8871f4145205 ffffffffffffffffffffffffffffffff 7248 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o
 0000000001b5145c0000000000001372 bdca1208328a54f7de405aeb9c4e6a2e ffffffffffffffffffffffffffffffff 29777772 /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch.gch
 5b73dccb520d77a1fde6efd3bea881fa cde406b965619ccf9e7b1c6d25bbc73a ffffffffffffffffffffffffffffffff 5468 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/x86_64/DogEvent.o
 5b73dccb53b80096fde6efd3bea893ec 56ba9a4dead6c669ba5a2062ba2b4de3 ffffffffffffffffffffffffffffffff 15332 /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/x86_64/DogVerifier.o

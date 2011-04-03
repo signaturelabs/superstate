@@ -13,9 +13,11 @@
  */
 @interface DogVerifier : NSObject <DogObserver> {
 	DogStateMachine *dog;
+	NSMutableDictionary *actionTracker;
 }
 
 @property (nonatomic, retain) DogStateMachine *dog;
+@property (nonatomic, retain) NSDictionary *actionTracker;
 
 - (BOOL)verify;
 

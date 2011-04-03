@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,7 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>12</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -310,14 +313,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DogStateMachine.m</string>
+								<string>DogVerifier.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,23 +326,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DogStateMachine.m</string>
+										<string>DogVerifier.m</string>
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>15EB06C613471C47005EF08D</string>
+										<string>15EB077F13490BF1005EF08D</string>
 										<key>history</key>
 										<array>
-											<string>15EB066213471406005EF08D</string>
-											<string>15EB06A513471A22005EF08D</string>
-											<string>15EB06A613471A22005EF08D</string>
-											<string>15EB06A813471A22005EF08D</string>
-											<string>15EB06AA13471A22005EF08D</string>
-											<string>15EB06AB13471A22005EF08D</string>
-											<string>15EB06C213471C47005EF08D</string>
-											<string>15EB06C313471C47005EF08D</string>
-											<string>15EB06C413471C47005EF08D</string>
-											<string>15EB06C513471C47005EF08D</string>
+											<string>15EB07721348BE49005EF08D</string>
+											<string>15EB077613490BF1005EF08D</string>
+											<string>15EB077713490BF1005EF08D</string>
+											<string>15EB077813490BF1005EF08D</string>
+											<string>15EB077913490BF1005EF08D</string>
+											<string>15EB077A13490BF1005EF08D</string>
+											<string>15EB077B13490BF1005EF08D</string>
+											<string>15EB077C13490BF1005EF08D</string>
+											<string>15EB077D13490BF1005EF08D</string>
+											<string>15EB077E13490BF1005EF08D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -543,8 +544,8 @@
 		<string>15EB067113471406005EF08D</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>15EB06331346F5DC005EF08D</string>
-		<string>/Users/tleyden/Documents/hsm/hsm.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/tleyden/Documents/hsm/hsm.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>11 61 1396 817 0 0 1440 878 </string>
@@ -639,7 +640,7 @@
 			<key>WindowToolGUID</key>
 			<string>15EB06331346F5DC005EF08D</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
