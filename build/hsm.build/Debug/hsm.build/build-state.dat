@@ -1,7 +1,7 @@
 Thsm
 v7
 r0
-t323558009.848771
+t323591878.072009
 cCheck dependencies
 cProcessPCH /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch.gch hsm_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o /Users/tleyden/Documents/hsm/hsm.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -82,9 +82,9 @@ s54
 i"DogEvent.h"
 
 N/Users/tleyden/Documents/hsm/DogStateMachine.h
-c000000004D98E21D0000000000000271
-t1301864989
-s625
+c000000004D99672400000000000002C6
+t1301899044
+s710
 i<Foundation/Foundation.h>
 i"DogEvent.h"
 
@@ -102,9 +102,9 @@ i<Foundation/Foundation.h>
 i"DogStateMachine.h"
 
 N/Users/tleyden/Documents/hsm/DogVerifier.m
-c000000004D98E2F90000000000000CC6
-t1301865209
-s3270
+c000000004D9967450000000000001966
+t1301899077
+s6502
 i"DogVerifier.h"
 i"DogEvent.h"
 
@@ -121,20 +121,20 @@ s63
 i"StateMachine.h"
 
 N/Users/tleyden/Documents/hsm/build/Debug/hsm
-t1301865209
-s20424
+t1301899078
+s25280
 
 N/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogEvent.o
 t1301861744
 s4788
 
 N/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogStateMachine.o
-t1301865103
+t1301899045
 s8420
 
 N/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogVerifier.o
-t1301865209
-s17008
+t1301899078
+s23080
 
 N/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/SMEvent.o
 t1301861744
@@ -150,7 +150,7 @@ t1301840573
 s560
 
 N/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o
-t1301865103
+t1301899045
 s7248
 
 N/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/main.o
@@ -244,7 +244,7 @@ s29777772
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies323558009#323558009#0(0"0(0#1#0"2443674256#0"0#
+lSLF07#2@18"Check dependencies323591877#323591877#0(0"0(0#1#0"2443674256#0"0#
 
 CCompileC build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogEvent.o /Users/tleyden/Documents/hsm/DogEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s323554544.544880
@@ -260,8 +260,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@47"Compile /Users/tleyden/Documents/hsm/DogEvent.m323554544#323554544#0(0"0(0#0#39"/Users/tleyden/Documents/hsm/DogEvent.m2443674256#1302"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/DogEvent.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogEvent.o0#
 
 CCompileC build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogStateMachine.o /Users/tleyden/Documents/hsm/DogStateMachine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323557903.322822
-e323557903.635056
+s323591844.868981
+e323591845.096884
 r1
 xCompileC
 xbuild/hsm.build/Debug/hsm.build/Objects-normal/i386/DogStateMachine.o
@@ -270,11 +270,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/tleyden/Documents/hsm/DogStateMachine.m323557903#323557903#0(0"0(0#0#46"/Users/tleyden/Documents/hsm/DogStateMachine.m2443674256#1316"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/DogStateMachine.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogStateMachine.o0#
+lSLF07#2@54"Compile /Users/tleyden/Documents/hsm/DogStateMachine.m323591844#323591845#0(0"0(0#0#46"/Users/tleyden/Documents/hsm/DogStateMachine.m2443674256#1316"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/DogStateMachine.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogStateMachine.o0#
 
 CCompileC build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogVerifier.o /Users/tleyden/Documents/hsm/DogVerifier.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323558009.447413
-e323558009.809222
+s323591877.567495
+e323591878.040924
 r1
 xCompileC
 xbuild/hsm.build/Debug/hsm.build/Objects-normal/i386/DogVerifier.o
@@ -283,7 +283,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/tleyden/Documents/hsm/DogVerifier.m323558009#323558009#0(0"0(0#0#42"/Users/tleyden/Documents/hsm/DogVerifier.m2443674256#1308"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/DogVerifier.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogVerifier.o0#
+lSLF07#2@50"Compile /Users/tleyden/Documents/hsm/DogVerifier.m323591877#323591878#0(0"0(0#0#42"/Users/tleyden/Documents/hsm/DogVerifier.m2443674256#1308"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/DogVerifier.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/DogVerifier.o0#
 
 CCompileC build/hsm.build/Debug/hsm.build/Objects-normal/i386/SMEvent.o /Users/tleyden/Documents/hsm/lib/SMEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s323554544.651835
@@ -318,8 +318,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@55"Compile /Users/tleyden/Documents/hsm/lib/StateMachine.m323554544#323554544#0(0"0(0#0#47"/Users/tleyden/Documents/hsm/lib/StateMachine.m2443674256#1314"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/lib/StateMachine.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/StateMachine.o0#
 
 CCompileC build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o /Users/tleyden/Documents/hsm/hsm.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323557903.316509
-e323557903.776120
+s323591844.849810
+e323591845.168281
 r1
 xCompileC
 xbuild/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o
@@ -328,7 +328,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/tleyden/Documents/hsm/hsm.m323557903#323557903#0(0"0(0#0#34"/Users/tleyden/Documents/hsm/hsm.m2443674256#1292"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/hsm.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o0#
+lSLF07#2@42"Compile /Users/tleyden/Documents/hsm/hsm.m323591844#323591845#0(0"0(0#0#34"/Users/tleyden/Documents/hsm/hsm.m2443674256#1292"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/i386 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-fkpirsqkhhmwpyethokxryczgmko/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/hsm.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.o0#
 
 CCompileC build/hsm.build/Debug/hsm.build/Objects-normal/i386/main.o /Users/tleyden/Documents/hsm/../code/heirarchical_state_machines_v1/qhsmtst/dosb3/main.c normal i386 c com.apple.compilers.gcc.4_2
 s323419292.690379
@@ -1502,14 +1502,14 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@42"Compile /Users/tleyden/Documents/hsm/hsm.m323426903#323426903#0(0"0(0#0#34"/Users/tleyden/Documents/hsm/hsm.m2443674256#1298"    cd /Users/tleyden/Documents/hsm    setenv LANG en_US.US-ASCII    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-generated-files.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-own-target-headers.hmap -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-all-target-headers.hmap -iquote /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/hsm-project-headers.hmap -F/Users/tleyden/Documents/hsm/build/Debug -I/Users/tleyden/Documents/hsm/build/Debug/include -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources/x86_64 -I/Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/DerivedSources -include /var/folders/Yf/Yf7cLSxfENWttaiNOUGoy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/hsm_Prefix-dpidkcppiyfrgocggdzruspukkot/hsm_Prefix.pch -c /Users/tleyden/Documents/hsm/hsm.m -o /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/x86_64/hsm.o0#
 
 CLd /Users/tleyden/Documents/hsm/build/Debug/hsm normal i386
-s323558009.809345
-e323558009.848684
+s323591878.041040
+e323591878.071944
 r1
 xLd
 x/Users/tleyden/Documents/hsm/build/Debug/hsm
 xnormal
 xi386
-lSLF07#2@49"Link /Users/tleyden/Documents/hsm/build/Debug/hsm323558009#323558009#0(0"0(0#0#0"2443674256#490"    cd /Users/tleyden/Documents/hsm    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -arch i386 -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -L/Users/tleyden/Documents/hsm/build/Debug -F/Users/tleyden/Documents/hsm/build/Debug -filelist /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/tleyden/Documents/hsm/build/Debug/hsm0#
+lSLF07#2@49"Link /Users/tleyden/Documents/hsm/build/Debug/hsm323591878#323591878#0(0"0(0#0#0"2443674256#490"    cd /Users/tleyden/Documents/hsm    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /DeveloperTools/Developer4.2.0/usr/bin/gcc-4.2 -arch i386 -isysroot /DeveloperTools/Developer4.2.0/SDKs/MacOSX10.6.sdk -L/Users/tleyden/Documents/hsm/build/Debug -F/Users/tleyden/Documents/hsm/build/Debug -filelist /Users/tleyden/Documents/hsm/build/hsm.build/Debug/hsm.build/Objects-normal/i386/hsm.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/tleyden/Documents/hsm/build/Debug/hsm0#
 
 CLd /Users/tleyden/Documents/hsm/build/Debug/hsm normal x86_64
 s323426904.303629

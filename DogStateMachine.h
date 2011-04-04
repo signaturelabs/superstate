@@ -27,7 +27,13 @@
 -(void)play;
 -(void)bark;
 -(void)whimper;
+-(void)vomit;
 -(void)lay_down;
+-(void)get_up;
+-(void)jump;
+-(void)backflip;
+-(void)burp;
+-(void)bite;
 
 @end
 
