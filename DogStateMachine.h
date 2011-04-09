@@ -8,13 +8,21 @@
  A state machine which models a dog
  */
 @interface DogStateMachine : NSObject {
+	
 	id <DogObserver> delegate;
+	
+	// current state
+	SEL myState;
+	
+	// source state during a transition
+	SEL mySource;
 }
 
 @property(nonatomic, assign) id <DogObserver> delegate;
 
 - (void) initialTransition;
 - (void) dispatch:(DogEvent *)event;
+
 
 @end
 

@@ -14,11 +14,14 @@
 @interface DogVerifier : NSObject <DogObserver> {
 	DogStateMachine *dog;
 	NSMutableDictionary *actionTracker;
+	int totalActionsReceived;
 }
 
 @property (nonatomic, retain) DogStateMachine *dog;
 @property (nonatomic, retain) NSDictionary *actionTracker;
+@property (nonatomic, assign) int totalActionsReceived;
 
+// excercise the dog, make sure its behaves as a real dog should
 - (BOOL)verify;
 
 @end

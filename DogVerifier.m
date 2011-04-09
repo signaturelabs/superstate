@@ -7,13 +7,14 @@
 - (void)incrementActionsReceived:(NSString *)actionName;
 - (void)assertActionsReceivedFor:(NSString *)actionName is:(int)numTimesExpected;
 - (int)numActionsReceivedFor:(NSString *)actionName;
+- (void)assertTotalActionsReceived:(int)numTimesExpected;
 
 @end
 
 
 @implementation DogVerifier
 
-@synthesize dog, actionTracker;
+@synthesize dog, actionTracker, totalActionsReceived;
 
 #pragma mark -
 #pragma mark Private Methods
@@ -36,6 +37,8 @@
 	}
 	[self.actionTracker setValue:numTimesActionCalled forKey:actionName];
 
+	self.totalActionsReceived += 1;
+	
 }
 
 - (void)assertActionsReceivedFor:(NSString *)actionName is:(int)numTimesExpected {
@@ -52,6 +55,15 @@
 			NSLog(@"assertActionsReceivedFor ASSERTION FAILED");
 			exit(1);
 		}
+	}
+	
+}
+
+- (void)assertTotalActionsReceived:(int)numTimesExpected {
+
+	if (self.totalActionsReceived != numTimesExpected) {
+		NSLog(@"assertTotalActionsReceived ASSERTION FAILED");
+		exit(1);			
 	}
 	
 }
@@ -91,7 +103,13 @@
 	[self.dog dispatch:evt];
 	[self assertActionsReceivedFor:@"lay_down" is:(curNumTimesLayedDown+1)];  
 	
-	// now lets kick him again, but this time since he's laying down, instead of barking he will whimper and go into unhappy state
+	// lets throw the dog a ball, but since he's tired he will do nothing
+	evt.signal = THROW_BALL_SIG;  
+	int curNumActionsRecevied = self.totalActionsReceived;
+	[self.dog dispatch:evt];
+	[self assertTotalActionsReceived:curNumActionsRecevied];  
+	
+	// now lets kick him again, but this time since he's tired, instead of barking he will whimper and go into unhappy state
 	evt.signal = KICK_SIG;  
 	curNumTimesWhimpered = [self numActionsReceivedFor:@"whimper"];
 	[self.dog dispatch:evt];
