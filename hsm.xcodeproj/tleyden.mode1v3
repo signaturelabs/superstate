@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DogVerifier.m</string>
+								<string>hsm.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,23 +325,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DogVerifier.m</string>
+										<string>hsm.m</string>
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>156D5C6F13512FD40035A809</string>
+										<string>156D5C8D1351637F0035A809</string>
 										<key>history</key>
 										<array>
-											<string>156D5C1213511D7F0035A809</string>
-											<string>156D5C1313511D7F0035A809</string>
-											<string>156D5C1513511D7F0035A809</string>
-											<string>156D5C1613511D7F0035A809</string>
-											<string>156D5C1713511D7F0035A809</string>
 											<string>156D5C1813511D7F0035A809</string>
 											<string>156D5C43135122540035A809</string>
 											<string>156D5C6C13512FD40035A809</string>
-											<string>156D5C6D13512FD40035A809</string>
-											<string>156D5C6E13512FD40035A809</string>
+											<string>156D5C861351637F0035A809</string>
+											<string>156D5C871351637F0035A809</string>
+											<string>156D5C881351637F0035A809</string>
+											<string>156D5C891351637F0035A809</string>
+											<string>156D5C8A1351637F0035A809</string>
+											<string>156D5C8B1351637F0035A809</string>
+											<string>156D5C8C1351637F0035A809</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -539,11 +539,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>156D5C8E1351637F0035A809</string>
 		<string>156D5B70134FF21F0035A809</string>
 		<string>156D5B71134FF21F0035A809</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>15EB06331346F5DC005EF08D</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/tleyden/Documents/hsm/hsm.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

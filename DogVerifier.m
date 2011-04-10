@@ -81,7 +81,7 @@
 	self.actionTracker = [[NSMutableDictionary alloc] init];
 	
 	// do initial transition (by default the dog should go into the happy / playful state) 	
-	[self.dog initialTransition];
+	[self.dog executeInitialTransition];
 	
 	// verify dog is in happy / playful state by throwing it a ball and making sure that
 	// it plays with it.

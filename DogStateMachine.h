@@ -20,7 +20,8 @@
 
 @property(nonatomic, assign) id <DogObserver> delegate;
 
-- (void) initialTransition;
+- (id) init;
+- (void) executeInitialTransition;  // aka "init" in samek book.  TODO: move to statemachine.m
 - (void) dispatch:(DogEvent *)event;
 
 

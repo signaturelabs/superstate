@@ -9,6 +9,15 @@
 // todo: move to statemachine.m
 - (SEL)trigger:(SEL)state signal:(int)sig;  
 
+// drill down to correct state
+- (void)Q_INIT:(SEL)state;
+
+// top state handler -- TODO: move this to statemachine.m
+- (SEL)top:(DogEvent *)event;
+
+// initial pseudostate handler
+- (void)initial:(DogEvent *)event;
+
 // state handlers
 - (SEL)happy:(DogEvent *)event;
 - (SEL)happy_playful:(DogEvent *)event;
@@ -17,7 +26,6 @@
 - (SEL)unhappy:(DogEvent *)event;
 - (SEL)unhappy_hurt:(DogEvent *)event;
 - (SEL)unhappy_sick:(DogEvent *)event;
-- (SEL)top:(DogEvent *)event;
 
 // accessors
 - (void)setMyState:(SEL)state;
@@ -34,8 +42,32 @@
 #pragma mark -
 #pragma mark Public
 
-- (void) initialTransition {
-	self.myState = @selector(happy_playful:);
+- (id)init
+{
+    self = [super init];
+    if(self) {
+		self.mySource = @selector(initial:);  // todo, move to statemachine.m and pass initial pseudostate to its init
+		self.myState = @selector(top:);
+    }
+    return(self);
+}
+
+- (void) executeInitialTransition {  // aka "init" in samek book.  TODO: move to statemachine.m
+	
+	SEL s;
+	s = self.myState;
+	if ([self respondsToSelector:self.mySource]) {
+		[self performSelector:self.mySource withObject:nil];  // top-most initial transition
+	}
+	s = self.myState;
+	
+	[self trigger:s signal:ENTRY_SIG];
+	
+	while ([self trigger:s signal:INIT_SIG] == nil) {
+		s = self.myState;
+		[self trigger:s signal:ENTRY_SIG];
+	}
+	
 }
 
 - (void) dispatch:(DogEvent *)event {
@@ -168,10 +200,19 @@ inLca:
 	return returnVal;
 }
 
+- (void)Q_INIT:(SEL)target {
+	self.myState = target;
+}
+
+
 - (void)setMyState:(SEL)state { myState = state; } 
 - (void)setMySource:(SEL)state { mySource = state; } 
 - (SEL)myState { return myState; }
 - (SEL)mySource { return mySource; }
+
+- (void)initial:(DogEvent *)event {
+	[self Q_INIT:@selector(happy:)];
+}
 
 - (SEL)top:(DogEvent *)event {
 	return nil;
@@ -184,6 +225,9 @@ inLca:
 			{
 				[self.delegate performSelector:@selector(bark)];
 			}		
+			return nil;
+		case INIT_SIG:
+			[self Q_INIT:@selector(happy_playful:)];		
 			return nil;
 		case GIVE_BURRITO_SIG:
 			if ([self.delegate respondsToSelector:@selector(lay_down)])

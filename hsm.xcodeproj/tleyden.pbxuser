@@ -11,7 +11,10 @@
 		breakpoints = (
 			15EB07B3134917CA005EF08D /* DogVerifier.m:178 */,
 			156D5C0513510B0B0035A809 /* StateMachine.m:7 */,
-			156D5C6613512EFA0035A809 /* DogVerifier.m:161 */,
+			156D5C7A135162EF0035A809 /* DogVerifier.m:84 */,
+			156D5C8F1351639A0035A809 /* DogStateMachine.m:61 */,
+			156D5C91135163A10035A809 /* DogVerifier.m:95 */,
+			156D5C931351648C0035A809 /* DogStateMachine.m:214 */,
 		);
 		codeSenseManager = 15EB06361346F5DC005EF08D /* Code sense */;
 		executables = (
@@ -128,6 +131,18 @@
 			156D5C6D13512FD40035A809 /* PBXTextBookmark */ = 156D5C6D13512FD40035A809 /* PBXTextBookmark */;
 			156D5C6E13512FD40035A809 /* PBXTextBookmark */ = 156D5C6E13512FD40035A809 /* PBXTextBookmark */;
 			156D5C6F13512FD40035A809 /* PBXTextBookmark */ = 156D5C6F13512FD40035A809 /* PBXTextBookmark */;
+			156D5C74135156DA0035A809 /* PBXTextBookmark */ = 156D5C74135156DA0035A809 /* PBXTextBookmark */;
+			156D5C75135156DA0035A809 /* PBXTextBookmark */ = 156D5C75135156DA0035A809 /* PBXTextBookmark */;
+			156D5C76135156DA0035A809 /* PBXTextBookmark */ = 156D5C76135156DA0035A809 /* PBXTextBookmark */;
+			156D5C77135156DA0035A809 /* PBXTextBookmark */ = 156D5C77135156DA0035A809 /* PBXTextBookmark */;
+			156D5C861351637F0035A809 /* PBXTextBookmark */ = 156D5C861351637F0035A809 /* PBXTextBookmark */;
+			156D5C871351637F0035A809 /* PBXTextBookmark */ = 156D5C871351637F0035A809 /* PBXTextBookmark */;
+			156D5C881351637F0035A809 /* PBXTextBookmark */ = 156D5C881351637F0035A809 /* PBXTextBookmark */;
+			156D5C891351637F0035A809 /* PBXTextBookmark */ = 156D5C891351637F0035A809 /* PBXTextBookmark */;
+			156D5C8A1351637F0035A809 /* PBXTextBookmark */ = 156D5C8A1351637F0035A809 /* PBXTextBookmark */;
+			156D5C8B1351637F0035A809 /* PBXTextBookmark */ = 156D5C8B1351637F0035A809 /* PBXTextBookmark */;
+			156D5C8C1351637F0035A809 /* PBXTextBookmark */ = 156D5C8C1351637F0035A809 /* PBXTextBookmark */;
+			156D5C8D1351637F0035A809 /* PBXTextBookmark */ = 156D5C8D1351637F0035A809 /* PBXTextBookmark */;
 			15EB077713490BF1005EF08D = 15EB077713490BF1005EF08D /* PBXTextBookmark */;
 			15EB077813490BF1005EF08D = 15EB077813490BF1005EF08D /* PBXTextBookmark */;
 			15EB077913490BF1005EF08D = 15EB077913490BF1005EF08D /* PBXTextBookmark */;
@@ -140,8 +155,8 @@
 	};
 	08FB7796FE84155DC02AAC07 /* hsm.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 712}}";
-			sepNavSelRange = "{530, 11}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 664}}";
+			sepNavSelRange = "{388, 0}";
 			sepNavVisRange = "{0, 855}";
 		};
 	};
@@ -150,7 +165,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 11";
 		rLen = 0;
-		rLoc = 861;
+		rLoc = 1636;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 0;
@@ -192,7 +207,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 114";
 		rLen = 0;
-		rLoc = 5605;
+		rLoc = 5612;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 0;
@@ -266,7 +281,7 @@
 		fRef = 15EB065413471340005EF08D /* DogStateMachine.h */;
 		name = "DogStateMachine.h: 17";
 		rLen = 0;
-		rLoc = 371;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 0;
@@ -276,7 +291,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 78";
 		rLen = 0;
-		rLoc = 2591;
+		rLoc = 2598;
 		rType = 0;
 		vrLen = 1614;
 		vrLoc = 1629;
@@ -285,7 +300,7 @@
 		isa = PBXTextBookmark;
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		rLen = 0;
-		rLoc = 233;
+		rLoc = 277;
 		rType = 1;
 	};
 	156D5B65134FF21F0035A809 /* PBXTextBookmark */ = {
@@ -293,7 +308,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 28";
 		rLen = 0;
-		rLoc = 1105;
+		rLoc = 1880;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 206;
@@ -303,7 +318,7 @@
 		fRef = 15EB065413471340005EF08D /* DogStateMachine.h */;
 		name = "DogStateMachine.h: 17";
 		rLen = 0;
-		rLoc = 371;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 0;
@@ -313,7 +328,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 28";
 		rLen = 0;
-		rLoc = 1105;
+		rLoc = 1880;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 206;
@@ -333,7 +348,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 9";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 591;
 		vrLoc = 0;
@@ -363,7 +378,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 9";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 536;
 		vrLoc = 0;
@@ -373,7 +388,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 33";
 		rLen = 0;
-		rLoc = 1105;
+		rLoc = 1880;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 152;
@@ -413,7 +428,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 19";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 631;
 		vrLoc = 0;
@@ -423,7 +438,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 15";
 		rLen = 0;
-		rLoc = 748;
+		rLoc = 933;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -487,7 +502,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 101";
 		rLen = 0;
-		rLoc = 5804;
+		rLoc = 6787;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 1619;
@@ -497,7 +512,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 32";
 		rLen = 0;
-		rLoc = 1105;
+		rLoc = 1880;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 351;
@@ -528,7 +543,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 42;
+		rLoc = 74;
 		rType = 1;
 	};
 	156D5BEE1350FCA20035A809 /* PBXTextBookmark */ = {
@@ -536,7 +551,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 33";
 		rLen = 0;
-		rLoc = 902;
+		rLoc = 1677;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 231;
@@ -555,9 +570,9 @@
 		ignoreCount = 0;
 		lineNumber = 7;
 		location = hsm;
-		modificationTime = 324087761.906642;
+		modificationTime = 324101675.231026;
 		originalNumberOfMultipleMatches = 1;
-		state = 1;
+		state = 0;
 	};
 	156D5C1113511D7F0035A809 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -644,7 +659,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 71";
 		rLen = 0;
-		rLoc = 4279;
+		rLoc = 5054;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 825;
@@ -654,7 +669,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 157";
 		rLen = 0;
-		rLoc = 6263;
+		rLoc = 6270;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 5906;
@@ -664,7 +679,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 139";
 		rLen = 0;
-		rLoc = 5468;
+		rLoc = 5475;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 4257;
@@ -685,7 +700,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 175;
+		rLoc = 216;
 		rType = 1;
 	};
 	156D5C2B13511E3B0035A809 /* PBXTextBookmark */ = {
@@ -693,7 +708,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 46";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 1875;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 650;
@@ -703,7 +718,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 46";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 1875;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 650;
@@ -713,7 +728,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 138";
 		rLen = 0;
-		rLoc = 5368;
+		rLoc = 5375;
 		rType = 0;
 		vrLen = 1817;
 		vrLoc = 4063;
@@ -723,7 +738,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 44";
 		rLen = 0;
-		rLoc = 1015;
+		rLoc = 1790;
 		rType = 0;
 		vrLen = 838;
 		vrLoc = 824;
@@ -733,7 +748,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 44";
 		rLen = 0;
-		rLoc = 1015;
+		rLoc = 1790;
 		rType = 0;
 		vrLen = 838;
 		vrLoc = 824;
@@ -743,7 +758,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 206";
 		rLen = 0;
-		rLoc = 7711;
+		rLoc = 8694;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 3754;
@@ -760,7 +775,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 139";
 		rLen = 0;
-		rLoc = 5394;
+		rLoc = 5401;
 		rType = 0;
 		vrLen = 1908;
 		vrLoc = 4063;
@@ -784,7 +799,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 133";
 		rLen = 16;
-		rLoc = 4708;
+		rLoc = 4715;
 		rType = 0;
 		vrLen = 1906;
 		vrLoc = 3701;
@@ -794,7 +809,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 83";
 		rLen = 0;
-		rLoc = 4279;
+		rLoc = 5054;
 		rType = 0;
 		vrLen = 903;
 		vrLoc = 1045;
@@ -804,7 +819,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 225";
 		rLen = 0;
-		rLoc = 7899;
+		rLoc = 8882;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 4361;
@@ -814,7 +829,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 219";
 		rLen = 0;
-		rLoc = 7711;
+		rLoc = 8694;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 610;
@@ -831,7 +846,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 136";
 		rLen = 0;
-		rLoc = 4819;
+		rLoc = 4826;
 		rType = 0;
 		vrLen = 1959;
 		vrLoc = 3998;
@@ -841,7 +856,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 136";
 		rLen = 0;
-		rLoc = 4819;
+		rLoc = 4826;
 		rType = 0;
 		vrLen = 1959;
 		vrLoc = 3998;
@@ -851,7 +866,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 219";
 		rLen = 0;
-		rLoc = 7711;
+		rLoc = 8694;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 593;
@@ -861,7 +876,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 55";
 		rLen = 0;
-		rLoc = 1225;
+		rLoc = 2000;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 855;
@@ -871,7 +886,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 55";
 		rLen = 0;
-		rLoc = 1181;
+		rLoc = 1956;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 781;
@@ -881,7 +896,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 108";
 		rLen = 0;
-		rLoc = 3147;
+		rLoc = 3922;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 1835;
@@ -891,7 +906,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 76";
 		rLen = 0;
-		rLoc = 1791;
+		rLoc = 2566;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 5209;
@@ -901,7 +916,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 141";
 		rLen = 0;
-		rLoc = 5159;
+		rLoc = 5166;
 		rType = 0;
 		vrLen = 1968;
 		vrLoc = 4089;
@@ -911,7 +926,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 76";
 		rLen = 0;
-		rLoc = 1791;
+		rLoc = 2566;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 5193;
@@ -921,28 +936,10 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 111";
 		rLen = 0;
-		rLoc = 2983;
+		rLoc = 3758;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 2086;
-	};
-	156D5C6613512EFA0035A809 /* DogVerifier.m:161 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 15EB067613471448005EF08D /* DogVerifier.m */;
-		functionName = "-verify";
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 161;
-		location = hsm;
-		modificationTime = 324087753.257288;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	156D5C6C13512FD40035A809 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -959,7 +956,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 352";
 		rLen = 0;
-		rLoc = 8373;
+		rLoc = 9356;
 		rType = 0;
 		vrLen = 763;
 		vrLoc = 7669;
@@ -969,7 +966,7 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 177";
 		rLen = 0;
-		rLoc = 6835;
+		rLoc = 6842;
 		rType = 0;
 		vrLen = 1549;
 		vrLoc = 5303;
@@ -979,10 +976,199 @@
 		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
 		name = "DogVerifier.m: 180";
 		rLen = 0;
-		rLoc = 6868;
+		rLoc = 6875;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 5469;
+	};
+	156D5C74135156DA0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
+		name = "DogStateMachine.m: 2";
+		rLen = 0;
+		rLoc = 10;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 1;
+	};
+	156D5C75135156DA0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB065413471340005EF08D /* DogStateMachine.h */;
+		name = "DogStateMachine.h: 23";
+		rLen = 0;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 0;
+	};
+	156D5C76135156DA0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
+		name = "DogVerifier.m: 180";
+		rLen = 0;
+		rLoc = 6875;
+		rType = 0;
+		vrLen = 1198;
+		vrLoc = 716;
+	};
+	156D5C77135156DA0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
+		name = "DogVerifier.m: 84";
+		rLen = 0;
+		rLoc = 2413;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 5462;
+	};
+	156D5C7A135162EF0035A809 /* DogVerifier.m:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 15EB067613471448005EF08D /* DogVerifier.m */;
+		functionName = "-verify";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = hsm;
+		modificationTime = 324101677.374264;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	156D5C861351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067313471426005EF08D /* StateMachine.m */;
+		name = "StateMachine.m: 7";
+		rLen = 0;
+		rLoc = 58;
+		rType = 0;
+		vrLen = 65;
+		vrLoc = 0;
+	};
+	156D5C871351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB07461348B945005EF08D /* SMEvent.m */;
+		name = "SMEvent.m: 7";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 74;
+		vrLoc = 0;
+	};
+	156D5C881351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067513471448005EF08D /* DogVerifier.h */;
+		name = "DogVerifier.h: 22";
+		rLen = 0;
+		rLoc = 750;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 0;
+	};
+	156D5C891351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB065413471340005EF08D /* DogStateMachine.h */;
+		name = "DogStateMachine.h: 24";
+		rLen = 0;
+		rLoc = 450;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 0;
+	};
+	156D5C8A1351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
+		name = "DogVerifier.m: 77";
+		rLen = 0;
+		rLoc = 2002;
+		rType = 0;
+		vrLen = 1062;
+		vrLoc = 0;
+	};
+	156D5C8B1351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
+		name = "DogStateMachine.m: 50";
+		rLen = 0;
+		rLoc = 1171;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 856;
+	};
+	156D5C8C1351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* hsm.m */;
+		rLen = 0;
+		rLoc = 14;
+		rType = 1;
+	};
+	156D5C8D1351637F0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* hsm.m */;
+		name = "hsm.m: 15";
+		rLen = 0;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 855;
+		vrLoc = 0;
+	};
+	156D5C8F1351639A0035A809 /* DogStateMachine.m:61 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 15EB065513471340005EF08D /* DogStateMachine.m */;
+		functionName = "-executeInitialTransition";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 61;
+		location = hsm;
+		modificationTime = 324101683.66299;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	156D5C91135163A10035A809 /* DogVerifier.m:95 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 15EB067613471448005EF08D /* DogVerifier.m */;
+		functionName = "-verify";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 95;
+		location = hsm;
+		modificationTime = 324101676.024959;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	156D5C931351648C0035A809 /* DogStateMachine.m:214 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 15EB065513471340005EF08D /* DogStateMachine.m */;
+		functionName = "-initial:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 214;
+		location = hsm;
+		modificationTime = 324101681.830054;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
 	};
 	15EB062A1346F5D8005EF08D /* hsm */ = {
 		isa = PBXExecutable;
@@ -1032,16 +1218,16 @@
 	};
 	15EB065413471340005EF08D /* DogStateMachine.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 855}}";
-			sepNavSelRange = "{267, 0}";
-			sepNavVisRange = "{0, 663}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 874}}";
+			sepNavSelRange = "{450, 0}";
+			sepNavVisRange = "{0, 756}";
 		};
 	};
 	15EB065513471340005EF08D /* DogStateMachine.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 7296}}";
-			sepNavSelRange = "{8373, 0}";
-			sepNavVisRange = "{7669, 763}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 7866}}";
+			sepNavSelRange = "{1571, 0}";
+			sepNavVisRange = "{983, 897}";
 		};
 	};
 	15EB067213471426005EF08D /* StateMachine.h */ = {
@@ -1053,23 +1239,23 @@
 	};
 	15EB067313471426005EF08D /* StateMachine.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 664}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 687}}";
 			sepNavSelRange = "{58, 0}";
 			sepNavVisRange = "{0, 65}";
 		};
 	};
 	15EB067513471448005EF08D /* DogVerifier.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 664}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 687}}";
 			sepNavSelRange = "{750, 0}";
 			sepNavVisRange = "{0, 839}";
 		};
 	};
 	15EB067613471448005EF08D /* DogVerifier.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 3876}}";
-			sepNavSelRange = "{6868, 0}";
-			sepNavVisRange = "{5469, 1418}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 4370}}";
+			sepNavSelRange = "{2378, 0}";
+			sepNavVisRange = "{1914, 1255}";
 		};
 	};
 	15EB067813471762005EF08D /* DogEvent.h */ = {
@@ -1160,11 +1346,11 @@
 		delayBeforeContinue = 0;
 		fileReference = 15EB067613471448005EF08D /* DogVerifier.m */;
 		functionName = "-verify";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 178;
 		location = hsm;
-		modificationTime = 324087759.478713;
+		modificationTime = 324101675.856087;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
