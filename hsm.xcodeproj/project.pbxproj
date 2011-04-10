@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156D5CA91351801E0035A809 /* StateMachine+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 156D5CA81351801E0035A809 /* StateMachine+Protected.m */; };
 		15EB065613471340005EF08D /* DogStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB065513471340005EF08D /* DogStateMachine.m */; };
 		15EB067413471426005EF08D /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB067313471426005EF08D /* StateMachine.m */; };
 		15EB067713471448005EF08D /* DogVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB067613471448005EF08D /* DogVerifier.m */; };
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* hsm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hsm.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		156D5CA71351801E0035A809 /* StateMachine+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StateMachine+Protected.h"; sourceTree = "<group>"; };
+		156D5CA81351801E0035A809 /* StateMachine+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "StateMachine+Protected.m"; sourceTree = "<group>"; };
 		15EB065113470B4C005EF08D /* dog_statemachine_diagram (Autosaved).graffle */ = {isa = PBXFileReference; lastKnownFileType = file; name = "dog_statemachine_diagram (Autosaved).graffle"; path = "docs/dog_statemachine_diagram (Autosaved).graffle"; sourceTree = "<group>"; };
 		15EB065213470B4C005EF08D /* dog_statemachine_diagram.graffle */ = {isa = PBXFileReference; lastKnownFileType = file; name = dog_statemachine_diagram.graffle; path = docs/dog_statemachine_diagram.graffle; sourceTree = "<group>"; };
 		15EB065313470B4C005EF08D /* dog_statemachine_diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog_statemachine_diagram.png; path = docs/dog_statemachine_diagram.png; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				15EB067313471426005EF08D /* StateMachine.m */,
 				15EB07451348B945005EF08D /* SMEvent.h */,
 				15EB07461348B945005EF08D /* SMEvent.m */,
+				156D5CA71351801E0035A809 /* StateMachine+Protected.h */,
+				156D5CA81351801E0035A809 /* StateMachine+Protected.m */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				15EB067713471448005EF08D /* DogVerifier.m in Sources */,
 				15EB067A13471762005EF08D /* DogEvent.m in Sources */,
 				15EB07471348B945005EF08D /* SMEvent.m in Sources */,
+				156D5CA91351801E0035A809 /* StateMachine+Protected.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

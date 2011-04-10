@@ -1,5 +1,6 @@
 
 #import <Foundation/Foundation.h>
+#import "StateMachine.h"
 #import "DogEvent.h"
 
 @protocol DogObserver;
@@ -7,22 +8,15 @@
 /**
  A state machine which models a dog
  */
-@interface DogStateMachine : NSObject {
+@interface DogStateMachine : StateMachine {
 	
 	id <DogObserver> delegate;
-	
-	// current state
-	SEL myState;
-	
-	// source state during a transition
-	SEL mySource;
+
 }
 
 @property(nonatomic, assign) id <DogObserver> delegate;
 
 - (id) init;
-- (void) executeInitialTransition;  // aka "init" in samek book.  TODO: move to statemachine.m
-- (void) dispatch:(DogEvent *)event;
 
 
 @end
