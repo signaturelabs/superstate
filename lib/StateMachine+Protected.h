@@ -23,10 +23,10 @@
 // perform a state transition
 - (void)transition:(SEL)state;  
 
-// drill down to correct state
-- (void)Q_INIT:(SEL)state;
+// drill down to correct state.  renamed from Q_INIT in Samek book.
+- (void)drillDown:(SEL)state;
 
-// top state handler -- TODO: move this to statemachine.m
+// top state handler
 - (SEL)top:(SMEvent *)event;
 
 

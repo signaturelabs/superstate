@@ -168,6 +168,15 @@
 			156D5D0A135189E10035A809 /* PBXTextBookmark */ = 156D5D0A135189E10035A809 /* PBXTextBookmark */;
 			156D5D0B135189E10035A809 /* PBXTextBookmark */ = 156D5D0B135189E10035A809 /* PBXTextBookmark */;
 			156D5D0C135189E10035A809 /* PBXTextBookmark */ = 156D5D0C135189E10035A809 /* PBXTextBookmark */;
+			156D5D1E13518BFD0035A809 /* PBXTextBookmark */ = 156D5D1E13518BFD0035A809 /* PBXTextBookmark */;
+			156D5D1F13518BFD0035A809 /* PBXTextBookmark */ = 156D5D1F13518BFD0035A809 /* PBXTextBookmark */;
+			156D5D2013518BFD0035A809 /* PBXTextBookmark */ = 156D5D2013518BFD0035A809 /* PBXTextBookmark */;
+			156D5D2113518BFD0035A809 /* PBXTextBookmark */ = 156D5D2113518BFD0035A809 /* PBXTextBookmark */;
+			156D5D2213518BFD0035A809 /* PBXTextBookmark */ = 156D5D2213518BFD0035A809 /* PBXTextBookmark */;
+			156D5D2313518BFD0035A809 /* PBXTextBookmark */ = 156D5D2313518BFD0035A809 /* PBXTextBookmark */;
+			156D5D2413518BFD0035A809 /* PBXTextBookmark */ = 156D5D2413518BFD0035A809 /* PBXTextBookmark */;
+			156D5D2513518BFD0035A809 /* PBXTextBookmark */ = 156D5D2513518BFD0035A809 /* PBXTextBookmark */;
+			156D5D2613518BFD0035A809 /* PBXTextBookmark */ = 156D5D2613518BFD0035A809 /* PBXTextBookmark */;
 			15EB077713490BF1005EF08D = 15EB077713490BF1005EF08D /* PBXTextBookmark */;
 			15EB077813490BF1005EF08D = 15EB077813490BF1005EF08D /* PBXTextBookmark */;
 			15EB077913490BF1005EF08D = 15EB077913490BF1005EF08D /* PBXTextBookmark */;
@@ -252,7 +261,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 5";
 		rLen = 0;
-		rLoc = 684;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 198;
 		vrLoc = 0;
@@ -393,7 +402,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 12";
 		rLen = 0;
-		rLoc = 814;
+		rLoc = 843;
 		rType = 0;
 		vrLen = 287;
 		vrLoc = 0;
@@ -433,7 +442,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 9";
 		rLen = 0;
-		rLoc = 729;
+		rLoc = 758;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 0;
@@ -507,7 +516,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 13";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 814;
 		rType = 0;
 		vrLen = 340;
 		vrLoc = 0;
@@ -527,7 +536,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 101";
 		rLen = 0;
-		rLoc = 2064;
+		rLoc = 2070;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 1619;
@@ -595,7 +604,7 @@
 		ignoreCount = 0;
 		lineNumber = 51;
 		location = hsm;
-		modificationTime = 324110806.564227;
+		modificationTime = 324111347.562902;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
@@ -644,7 +653,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 19";
 		rLen = 0;
-		rLoc = 1538;
+		rLoc = 1567;
 		rType = 0;
 		vrLen = 312;
 		vrLoc = 0;
@@ -783,7 +792,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 206";
 		rLen = 0;
-		rLoc = 3971;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 3754;
@@ -844,7 +853,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 225";
 		rLen = 0;
-		rLoc = 4159;
+		rLoc = 4165;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 4361;
@@ -854,7 +863,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 219";
 		rLen = 0;
-		rLoc = 3971;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 610;
@@ -891,7 +900,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 219";
 		rLen = 0;
-		rLoc = 3971;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 593;
@@ -981,7 +990,7 @@
 		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
 		name = "DogStateMachine.m: 352";
 		rLen = 0;
-		rLoc = 4633;
+		rLoc = 4639;
 		rType = 0;
 		vrLen = 763;
 		vrLoc = 7669;
@@ -1126,15 +1135,15 @@
 	156D5CA71351801E0035A809 /* StateMachine+Protected.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1127, 664}}";
-			sepNavSelRange = "{720, 0}";
-			sepNavVisRange = "{0, 720}";
+			sepNavSelRange = "{532, 0}";
+			sepNavVisRange = "{0, 723}";
 		};
 	};
 	156D5CA81351801E0035A809 /* StateMachine+Protected.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 2527}}";
-			sepNavSelRange = "{2796, 0}";
-			sepNavVisRange = "{1614, 1197}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 2641}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 952}";
 		};
 	};
 	156D5CCE135184960035A809 /* PBXTextBookmark */ = {
@@ -1202,7 +1211,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 6";
 		rLen = 0;
-		rLoc = 684;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 621;
 		vrLoc = 0;
@@ -1248,7 +1257,7 @@
 		ignoreCount = 0;
 		lineNumber = 81;
 		location = hsm;
-		modificationTime = 324110809.094169;
+		modificationTime = 324111348.955511;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -1307,7 +1316,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 18";
 		rLen = 0;
-		rLoc = 878;
+		rLoc = 907;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 0;
@@ -1407,7 +1416,7 @@
 		fRef = 156D5CA71351801E0035A809 /* StateMachine+Protected.h */;
 		name = "StateMachine+Protected.h: 34";
 		rLen = 0;
-		rLoc = 720;
+		rLoc = 723;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 0;
@@ -1428,6 +1437,96 @@
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 6225;
+	};
+	156D5D1E13518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
+		name = "StateMachine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1450;
+		vrLoc = 0;
+	};
+	156D5D1F13518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067313471426005EF08D /* StateMachine.m */;
+		name = "StateMachine.m: 53";
+		rLen = 0;
+		rLoc = 1117;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 460;
+	};
+	156D5D2013518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 156D5CA71351801E0035A809 /* StateMachine+Protected.h */;
+		name = "StateMachine+Protected.h: 23";
+		rLen = 0;
+		rLoc = 532;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	156D5D2113518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 156D5CA81351801E0035A809 /* StateMachine+Protected.m */;
+		name = "StateMachine+Protected.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 0;
+	};
+	156D5D2213518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB065413471340005EF08D /* DogStateMachine.h */;
+		name = "DogStateMachine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 0;
+	};
+	156D5D2313518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB065513471340005EF08D /* DogStateMachine.m */;
+		name = "DogStateMachine.m: 41";
+		rLen = 0;
+		rLoc = 840;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 4150;
+	};
+	156D5D2413518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067513471448005EF08D /* DogVerifier.h */;
+		name = "DogVerifier.h: 17";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 0;
+	};
+	156D5D2513518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
+		name = "DogVerifier.m: 81";
+		rLen = 0;
+		rLoc = 2209;
+		rType = 0;
+		vrLen = 1266;
+		vrLoc = 1789;
+	};
+	156D5D2613518BFD0035A809 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15EB067613471448005EF08D /* DogVerifier.m */;
+		name = "DogVerifier.m: 84";
+		rLen = 0;
+		rLoc = 2360;
+		rType = 0;
+		vrLen = 1331;
+		vrLoc = 6251;
 	};
 	15EB062A1346F5D8005EF08D /* hsm */ = {
 		isa = PBXExecutable;
@@ -1477,44 +1576,44 @@
 	};
 	15EB065413471340005EF08D /* DogStateMachine.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1032, 722}}";
-			sepNavSelRange = "{224, 0}";
-			sepNavVisRange = "{146, 392}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 760}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 640}";
 		};
 	};
 	15EB065513471340005EF08D /* DogStateMachine.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 4446}}";
-			sepNavSelRange = "{638, 0}";
-			sepNavVisRange = "{298, 716}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 4503}}";
+			sepNavSelRange = "{840, 0}";
+			sepNavVisRange = "{4150, 587}";
 		};
 	};
 	15EB067213471426005EF08D /* StateMachine.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1127, 798}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1459}";
+			sepNavVisRange = "{0, 1450}";
 		};
 	};
 	15EB067313471426005EF08D /* StateMachine.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 950}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 799}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 1007}}";
+			sepNavSelRange = "{1117, 0}";
+			sepNavVisRange = "{460, 657}";
 		};
 	};
 	15EB067513471448005EF08D /* DogVerifier.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 687}}";
-			sepNavSelRange = "{750, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 664}}";
+			sepNavSelRange = "{580, 0}";
 			sepNavVisRange = "{0, 839}";
 		};
 	};
 	15EB067613471448005EF08D /* DogVerifier.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1127, 4142}}";
-			sepNavSelRange = "{2209, 0}";
-			sepNavVisRange = "{6225, 1314}";
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 4085}}";
+			sepNavSelRange = "{2360, 0}";
+			sepNavVisRange = "{6251, 1331}";
 		};
 	};
 	15EB067813471762005EF08D /* DogEvent.h */ = {
@@ -1580,7 +1679,7 @@
 		fRef = 15EB067213471426005EF08D /* StateMachine.h */;
 		name = "StateMachine.h: 5";
 		rLen = 0;
-		rLoc = 684;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 198;
 		vrLoc = 0;
@@ -1609,7 +1708,7 @@
 		ignoreCount = 0;
 		lineNumber = 178;
 		location = hsm;
-		modificationTime = 324110812.257374;
+		modificationTime = 324111354.439645;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};

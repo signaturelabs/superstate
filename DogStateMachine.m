@@ -38,7 +38,7 @@
 #pragma mark Initial Pseudostate handler (Private)
 
 - (void)initialPseudostate:(DogEvent *)event {
-	[self Q_INIT:@selector(happy:)];  	// the dog starts out as being happy.
+	[self drillDown:@selector(happy:)];  	// the dog starts out as being happy.
 }
 
 
@@ -54,7 +54,7 @@
 			}		
 			return nil;
 		case INIT_SIG:
-			[self Q_INIT:@selector(happy_playful:)];		
+			[self drillDown:@selector(happy_playful:)];		
 			return nil;
 		case GIVE_BURRITO_SIG:
 			if ([self.delegate respondsToSelector:@selector(lay_down)])

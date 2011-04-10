@@ -125,7 +125,7 @@ inLca:
 }
 
 
-- (void)Q_INIT:(SEL)target {
+- (void)drillDown:(SEL)target {
 	self.myState = target;
 }
 
