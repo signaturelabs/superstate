@@ -74,7 +74,7 @@
 - (BOOL)verify {
 	
 	// local vars..
-	int curNumTimesPlayed, curNumTimesBarked, curNumTimesLayedDown, curNumTimesWhimpered, curNumTimesPetted = 0;
+	int curNumTimesPlayed, curNumTimesBarked, curNumTimesLayedDown, curNumTimesWhimpered = 0;
 	int curNumTimesBackflipped, curNumTimesBite, curNumTimesGetUp, curNumTimesVomit = 0;
 	
 	// reset the actiontracker
@@ -176,7 +176,7 @@
 	[self assertActionsReceivedFor:@"bite" is:curNumTimesBite+1];
 	
 	[evt release];
-	return FALSE;
+	return TRUE;
 	
 }
 

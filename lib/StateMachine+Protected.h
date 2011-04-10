@@ -6,7 +6,7 @@
 
 /**
  Some methods that are available to the statemachine and its subclasses.  
- 3rd party users of this library should not be using this stuff.  
+ 3rd party users of this library should not be using this stuff.  Please move along..
  */
 
 @interface StateMachine(Protected) 

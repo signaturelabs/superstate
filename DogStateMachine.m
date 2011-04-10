@@ -27,10 +27,9 @@
 
 - (id)init
 {
-    self = [super init];
+    self = [super initWithInitialPseudostate:@selector(initialPseudostate:)];
     if(self) {
-		self.mySource = @selector(initialPseudostate:);  // todo, move to statemachine.m and pass initial pseudostate to its init
-		self.myState = @selector(top:);
+		// custom init goes here..
     }
     return(self);
 }
@@ -39,7 +38,7 @@
 #pragma mark Initial Pseudostate handler (Private)
 
 - (void)initialPseudostate:(DogEvent *)event {
-	[self Q_INIT:@selector(happy:)];
+	[self Q_INIT:@selector(happy:)];  	// the dog starts out as being happy.
 }
 
 

@@ -4,6 +4,22 @@
 
 @implementation StateMachine
 
+- (id)init {
+	// if you call this, which you are not supposed to, we are gonna blow up.  *kaboom*
+	[NSException raise:@"Invalid initializer" format:@"Call initWithInitialPseudostate instead"];
+	return nil;
+}
+
+- (id)initWithInitialPseudostate:(SEL)pseudostate
+{
+    self = [super init];
+    if(self) {
+		self.mySource = pseudostate;  
+		self.myState = @selector(top:);
+    }
+    return(self);
+}
+
 - (void) dispatch:(SMEvent *)event {
 	
 	self.mySource = self.myState;
@@ -14,7 +30,6 @@
 	}
 	
 }
-
 
 - (void) executeInitialTransition {  
 	
@@ -33,6 +48,5 @@
 	}
 	
 }
-
 
 @end

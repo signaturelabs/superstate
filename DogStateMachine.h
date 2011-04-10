@@ -18,7 +18,6 @@
 
 - (id) init;
 
-
 @end
 
 // ------ Dog Observer Delegate Protocol 

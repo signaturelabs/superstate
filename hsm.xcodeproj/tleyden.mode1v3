@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,6 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -312,6 +311,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -329,19 +330,19 @@
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>156D5CD7135184960035A809</string>
+										<string>156D5D0C135189E10035A809</string>
 										<key>history</key>
 										<array>
-											<string>156D5C881351637F0035A809</string>
-											<string>156D5CCE135184960035A809</string>
-											<string>156D5CCF135184960035A809</string>
-											<string>156D5CD0135184960035A809</string>
-											<string>156D5CD1135184960035A809</string>
-											<string>156D5CD2135184960035A809</string>
-											<string>156D5CD3135184960035A809</string>
-											<string>156D5CD4135184960035A809</string>
-											<string>156D5CD5135184960035A809</string>
-											<string>156D5CD6135184960035A809</string>
+											<string>156D5CEA135186D00035A809</string>
+											<string>156D5D03135189E10035A809</string>
+											<string>156D5D04135189E10035A809</string>
+											<string>156D5D05135189E10035A809</string>
+											<string>156D5D06135189E10035A809</string>
+											<string>156D5D07135189E10035A809</string>
+											<string>156D5D08135189E10035A809</string>
+											<string>156D5D09135189E10035A809</string>
+											<string>156D5D0A135189E10035A809</string>
+											<string>156D5D0B135189E10035A809</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -542,8 +543,8 @@
 		<string>156D5B70134FF21F0035A809</string>
 		<string>156D5B71134FF21F0035A809</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>15EB06331346F5DC005EF08D</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/tleyden/Documents/hsm/hsm.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
