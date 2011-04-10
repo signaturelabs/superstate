@@ -6,10 +6,11 @@
  */
 
 enum SMEventSignals {                                                     // standard signals
-    SM_INIT_SIG = 1,
-    SM_ENTRY_SIG,
-    SM_EXIT_SIG,
-    SM_USER_SIG
+    EMPTY_SIG = 0,
+	INIT_SIG,
+    ENTRY_SIG,
+    EXIT_SIG,
+    USER_SIG
 };
 
 @interface SMEvent : NSObject {

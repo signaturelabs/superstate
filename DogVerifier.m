@@ -121,20 +121,32 @@
 	[self.dog dispatch:evt];
 	[self assertActionsReceivedFor:@"whimper" is:curNumTimesWhimpered+1];
 	
-	// lets pet him, which will make him go into the happy state, and whenever he enters the happy state he barks
-	evt.signal = PET_SIG;  
-	curNumTimesPetted = [self numActionsReceivedFor:@"pet"];
+	// ok we had a really bad day and got yelled at by our boss for being THREE WEEKS LATE.  lets
+	// take it out on the dog and kick him again.  he will wimper again and go into hurt state
+	evt.signal = KICK_SIG;  
+	curNumTimesWhimpered = [self numActionsReceivedFor:@"whimper"];
 	[self.dog dispatch:evt];
-	[self assertActionsReceivedFor:@"pet" is:curNumTimesPetted+1];
+	[self assertActionsReceivedFor:@"whimper" is:curNumTimesWhimpered+1];
 	
-	// lets pet him again, which will make him go into the playful state, and whenever he enters the playful state he gets up and barks
+	// try to give him a burrito, he will look up, ignore it, and go back into the hurt state.  upon 
+	// temporarily leaving the hurt state, he will whimper
+	evt.signal = GIVE_BURRITO_SIG;  
+	curNumTimesWhimpered = [self numActionsReceivedFor:@"whimper"];
+	[self.dog dispatch:evt];
+	[self assertActionsReceivedFor:@"whimper" is:(curNumTimesWhimpered+1)];  
+	
+	// lets pet him, which will make him go into the happy+playful state, and whenever he enters the happy state he barks
+	// and whenever he enters playful state he gets up.  also when he leaves the hurt state, he will wimper to signify
+	// that he's still unhappy
 	evt.signal = PET_SIG;  
 	curNumTimesGetUp = [self numActionsReceivedFor:@"get_up"];
 	curNumTimesBarked = [self numActionsReceivedFor:@"bark"];
+	curNumTimesWhimpered = [self numActionsReceivedFor:@"whimper"];
 	[self.dog dispatch:evt];
+	[self assertActionsReceivedFor:@"whimper" is:(curNumTimesWhimpered+1)];  
 	[self assertActionsReceivedFor:@"get_up" is:curNumTimesGetUp+1];
 	[self assertActionsReceivedFor:@"bark" is:(curNumTimesBarked+1)];  
-	
+		
 	// lets give him some whiskey!  this will make him go into the happy/wasted state.  he doesn't do anything upon entering this state
 	evt.signal = GIVE_WHISKEY_SIG;  
 	[self.dog dispatch:evt];

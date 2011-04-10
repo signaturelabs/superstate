@@ -9,7 +9,7 @@
  */
 
 enum DogEventSignals {
-    THROW_BALL_SIG = SM_USER_SIG,
+    THROW_BALL_SIG = USER_SIG,
     THROW_BONE_SIG,
     KICK_SIG,
     GIVE_BURRITO_SIG,
