@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>156D5D2613518BFD0035A809</string>
+										<string>156D5E571353781B0035A809</string>
 										<key>history</key>
 										<array>
 											<string>156D5D07135189E10035A809</string>
@@ -540,11 +540,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>156D5D2A13518BFD0035A809</string>
 		<string>156D5B70134FF21F0035A809</string>
 		<string>156D5B71134FF21F0035A809</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>15EB06331346F5DC005EF08D</string>
-		<string>156D5D2A13518BFD0035A809</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/tleyden/Documents/hsm/hsm.xcodeproj</string>
@@ -1414,18 +1414,13 @@
 				<string>156D5D2A13518BFD0035A809</string>
 				<string>156D5D2B13518BFD0035A809</string>
 				<string>156D5D2913518BFD0035A809</string>
-				<string>156D5D2C13518BFD0035A809</string>
-				<string>156D5D2D13518BFD0035A809</string>
-				<string>156D5D2E13518BFD0035A809</string>
-				<string>156D5D2F13518BFD0035A809</string>
-				<string>156D5D3013518BFD0035A809</string>
 			</array>
 			<key>WindowString</key>
 			<string>32 499 500 356 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>156D5D2A13518BFD0035A809</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 	</array>
 </dict>
