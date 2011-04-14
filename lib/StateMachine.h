@@ -3,14 +3,16 @@
 #import "SMEvent.h"
 
 /**
- Heirarchical state machine superclass.  Your own state machine should subclass this in order to inherit certain behaviors.
+ Heirarchical state machine superclass.  Your own state machine should subclass this in order to 
+ inherit certain behaviors.
  
- This is essentially a port of the heirarchical state machine in C++ from Practical Statecharts in C/C++ by Miro Samek (1st ed.)
- Reading that book will not only help explain how a lot of this works, especially some of the gnarlier methods like
- transition(), but will also confuse the hell out of you.  Highly recommended reading.
+ This is essentially a port of the heirarchical state machine in C++ from Practical Statecharts in 
+ C/C++ by Miro Samek (1st ed.)  Reading that book will not only help explain how a lot of this 
+ works, especially some of the gnarlier methods like transition(), but will also confuse the hell 
+ out of you.  Highly recommended reading.
  
- A lot of the code from this class has been moved into a category StateMachine+Protected.h/m so it could be 
- encapsulated but still accessed in subclasses.  Eg, poor man's protected methods.
+ A lot of the code from this class has been moved into a category StateMachine+Protected.h/m so it 
+ could be encapsulated but still accessed in subclasses.  Eg, poor man's protected methods.
  
  */
 @interface StateMachine : NSObject {
