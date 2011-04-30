@@ -7,6 +7,15 @@
 
 /**
  A state machine which models a dog
+ 
+ - happy;
+    - playful
+    - tired
+    - wasted
+ - unhappy
+    - hurt
+    - sick
+
  */
 @interface DogStateMachine : StateMachine {
 	

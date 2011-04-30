@@ -21,10 +21,10 @@ int main (int argc, const char * argv[]) {
 	
 	// report result
 	if (isReallyADog) {
-		NSLog(@"Its really a dog!");
+		NSLog(@"Its really a dog! (all tests passed)");
 	}
 	else {
-		NSLog(@"Hah, this is NOT a real dog!  Its probably a cat wearing a dogsuit");
+		NSLog(@"Hah, this is NOT a real dog!  Its probably a cat wearing a dogsuit. (1 or more tests failed)");
 	}
 	
 	[pool drain];

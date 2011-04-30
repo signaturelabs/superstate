@@ -211,6 +211,12 @@
 
 - (SEL)unhappy_sick:(DogEvent *)event {
 	switch (event.signal) {
+        case EXIT_SIG:
+			if ([self.delegate respondsToSelector:@selector(burp)])
+			{
+				[self.delegate performSelector:@selector(burp)];
+			}				
+			return nil;	
 		case GIVE_BURRITO_SIG:
 			if ([self.delegate respondsToSelector:@selector(whimper)])
 			{
@@ -222,6 +228,11 @@
 			{
 				[self.delegate performSelector:@selector(bite)];
 			}				
+			return nil;	
+		case THROW_BONE_SIG:
+			
+			[self transition:@selector(happy:)];
+			
 			return nil;	
 			
 		default:

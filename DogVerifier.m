@@ -75,7 +75,7 @@
 	
 	// local vars..
 	int curNumTimesPlayed, curNumTimesBarked, curNumTimesLayedDown, curNumTimesWhimpered = 0;
-	int curNumTimesBackflipped, curNumTimesBite, curNumTimesGetUp, curNumTimesVomit = 0;
+	int curNumTimesBackflipped, curNumTimesBite, curNumTimesGetUp, curNumTimesVomit, curNumTimesBurp = 0;
 	
 	// reset the actiontracker
 	self.actionTracker = [[NSMutableDictionary alloc] init];
@@ -174,7 +174,16 @@
 	curNumTimesBite = [self numActionsReceivedFor:@"bite"];
 	[self.dog dispatch:evt];
 	[self assertActionsReceivedFor:@"bite" is:curNumTimesBite+1];
-	
+
+	// lets throw him a bone, he should burp as he leaves the unhappy/sick state, and get up as 
+    // he enters the happy/playful state
+	evt.signal = THROW_BONE_SIG;  
+    curNumTimesGetUp = [self numActionsReceivedFor:@"get_up"];
+	curNumTimesBurp = [self numActionsReceivedFor:@"burp"];
+	[self.dog dispatch:evt];
+	[self assertActionsReceivedFor:@"burp" is:curNumTimesBurp+1];
+	[self assertActionsReceivedFor:@"get_up" is:curNumTimesGetUp+1];    
+    
 	[evt release];
 	return TRUE;
 	
