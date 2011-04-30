@@ -79,7 +79,7 @@
 	// until a match is found or unitl the top state is reached. 
 	*(++e) = p;
 	for (s = [self trigger:p signal:EMPTY_SIG]; s; s = [self trigger:s signal:EMPTY_SIG]) {
-		if (self.mySource = s) {
+		if (self.mySource == s) {  
 			goto inLca;
 		}
 		*(++e) = s;
@@ -111,7 +111,7 @@
 	
 inLca:
 	
-	while (s = *e--) {  // retrace the entry path in the reverse order
+	while ((s = *e--)) {  // retrace the entry path in the reverse order 
 		[self trigger:s signal:ENTRY_SIG];
 	}
 	

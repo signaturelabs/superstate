@@ -80,6 +80,12 @@
 
 - (SEL)happy_tired:(DogEvent *)event {
 	switch (event.signal) {
+        case ENTRY_SIG:
+			if ([self.delegate respondsToSelector:@selector(yawn)])
+			{
+				[self.delegate performSelector:@selector(yawn)];
+			}		
+			return nil;
 		case THROW_BALL_SIG:
 			// do nothing..
 			return nil;
@@ -231,7 +237,7 @@
 			return nil;	
 		case THROW_BONE_SIG:
 			
-			[self transition:@selector(happy:)];
+			[self transition:@selector(happy_tired:)];
 			
 			return nil;	
 			

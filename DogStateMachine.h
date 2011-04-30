@@ -45,6 +45,7 @@
 -(void)backflip;
 -(void)burp;
 -(void)bite;
+-(void)yawn;
 
 @end
 

@@ -74,7 +74,7 @@
 - (BOOL)verify {
 	
 	// local vars..
-	int curNumTimesPlayed, curNumTimesBarked, curNumTimesLayedDown, curNumTimesWhimpered = 0;
+	int curNumTimesPlayed, curNumTimesBarked, curNumTimesLayedDown, curNumTimesWhimpered, curNumTimesYawn = 0;
 	int curNumTimesBackflipped, curNumTimesBite, curNumTimesGetUp, curNumTimesVomit, curNumTimesBurp = 0;
 	
 	// reset the actiontracker
@@ -175,14 +175,16 @@
 	[self.dog dispatch:evt];
 	[self assertActionsReceivedFor:@"bite" is:curNumTimesBite+1];
 
-	// lets throw him a bone, he should burp as he leaves the unhappy/sick state, and get up as 
-    // he enters the happy/playful state
+	// lets throw him a bone, he should burp as he leaves the unhappy/sick state, and yawns as 
+    // he enters the happy/tired state.  oh he also always barks as he enteres the happy state.
 	evt.signal = THROW_BONE_SIG;  
-    curNumTimesGetUp = [self numActionsReceivedFor:@"get_up"];
+    curNumTimesYawn = [self numActionsReceivedFor:@"yawn"];
 	curNumTimesBurp = [self numActionsReceivedFor:@"burp"];
+    curNumTimesBarked = [self numActionsReceivedFor:@"bark"];
 	[self.dog dispatch:evt];
 	[self assertActionsReceivedFor:@"burp" is:curNumTimesBurp+1];
-	[self assertActionsReceivedFor:@"get_up" is:curNumTimesGetUp+1];    
+	[self assertActionsReceivedFor:@"yawn" is:curNumTimesYawn+1];    
+    [self assertActionsReceivedFor:@"bark" is:(curNumTimesBarked+1)];  
     
 	[evt release];
 	return TRUE;
@@ -202,6 +204,7 @@
 -(void)backflip { [self incrementActionsReceived:@"backflip"]; }
 -(void)burp { [self incrementActionsReceived:@"burp"]; }
 -(void)bite { [self incrementActionsReceived:@"bite"]; }
+-(void)yawn { [self incrementActionsReceived:@"yawn"]; }
 
 #pragma mark -
 #pragma mark Accessors
