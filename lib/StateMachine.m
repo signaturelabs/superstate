@@ -31,6 +31,18 @@
 	
 }
 
+- (BOOL)isInState:(SEL)state {
+    SEL tmpState = self.myState;
+    while (tmpState != nil) {	
+        if (tmpState == state) {
+            return TRUE;
+        }
+        tmpState = (SEL) [self trigger:tmpState signal:EMPTY_SIG];  // get state's parent state
+    }
+    return FALSE;
+    
+}
+
 - (void) executeInitialTransition {  
 	
 	SEL s;

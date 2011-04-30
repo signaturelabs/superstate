@@ -40,4 +40,7 @@
 // dispatch an event to the state machine.
 - (void) dispatch:(SMEvent *)event;
 
+// is the state machine in this state or one of this state's substates?
+- (BOOL)isInState:(SEL)state;
+
 @end
