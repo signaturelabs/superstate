@@ -24,6 +24,6 @@ enum SMEventSignals {                                                     // sta
 
 @property (nonatomic, assign) int signal; 
 
-- (id)initWithSignal:(int)signal;
+- (id)initWithSignal:(int)_signal;
 
 @end

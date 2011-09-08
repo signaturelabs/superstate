@@ -5,10 +5,10 @@
 
 @synthesize signal;
 
-- (id)initWithSignal:(int)signal {
+- (id)initWithSignal:(int)_signal {
 	self = [super init];
 	if (self) {
-		self.signal = signal;
+		self.signal = _signal;
 	}
 	return self;
 	
